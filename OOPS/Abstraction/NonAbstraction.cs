@@ -18,7 +18,7 @@ public class NonAbstraction : INonAbstraction
         return true;
     }
 
-    public bool SendMessage(string recipient, string messageBody)
+    public bool SendMessage(string recipient,string subject, string messageBody)
     {
         Console.WriteLine("Sending message...");
         return true;

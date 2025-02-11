@@ -25,7 +25,7 @@ encap.Name = "Steve";
 NonAbstraction emailServiceNonAbstracted = new NonAbstraction();
 emailServiceNonAbstracted.Connect();
 emailServiceNonAbstracted.Authenticate("username", "password");
-emailServiceNonAbstracted.SendMessage("sagar@gmail.com", "This is test message");
+emailServiceNonAbstracted.SendMessage("a@a.com", "TEST Subject", "Test body");
 emailServiceNonAbstracted.Disconnect();
 
 //AbstractedEmail service
